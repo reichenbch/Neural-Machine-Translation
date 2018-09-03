@@ -1,7 +1,7 @@
 # Neural-Machine-Translation-
 Implementing neural machine translation from scratch using Python,Keras.
 
-Dataset
+## Dataset
 
 The dataset is available from the http://www.manythings.org/ website, with examples drawn from the Tatoeba Project. The dataset is comprised of German phrases and their English counterparts and is intended to be used with the Anki flashcard software.
 
@@ -12,7 +12,7 @@ unzip deu-eng.zip
 
 You will have a file called deu.txt that contains 152,820 pairs of English to German phases, one pair per line with a tab separating the language.
 
-Things to be done more for building a better system :
+## Things to be done more for building a better system :
 
 Data Cleaning - Different data cleaning operations could be performed on the data, such as not removing punctuation or normalizing case, or perhaps removing duplicate English phrases.
 
