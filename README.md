@@ -12,6 +12,12 @@ unzip deu-eng.zip
 
 You will have a file called deu.txt that contains 152,820 pairs of English to German phases, one pair per line with a tab separating the language.
 
+## Sequence of files to run :
+1. nmt_training_split.py
+2. nmt(e2g)_preprocessing.py
+3. nmt(e2g)_translation.py
+4. nmt(e2g)_evaluation.py
+
 ## Things to be done more for building a better system :
 
 Data Cleaning - Different data cleaning operations could be performed on the data, such as not removing punctuation or normalizing case, or perhaps removing duplicate English phrases.
