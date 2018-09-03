@@ -19,10 +19,16 @@ Data Cleaning - Different data cleaning operations could be performed on the dat
 Vocabulary - The vocabulary could be refined, perhaps removing words used less than 5 or 10 times in the dataset and replaced with “unk“.
 
 More Data - The dataset used to fit the model could be expanded to 50,000, 100,000 phrases, or more.
+
 Input Order - The order of input phrases could be reversed, which has been reported to lift skill, or a Bidirectional input layer could be used.
+
 Layers - The encoder and/or the decoder models could be expanded with additional layers and trained for more epochs, providing more representational capacity for the model.
+
 Units -  The number of memory units in the encoder and decoder could be increased, providing more representational capacity for the model.
 
 Regularization - The model could use regularization, such as weight or activation regularization, or the use of dropout on the LSTM layers.
+
 Pre-trained Word Vectors - Pre-trained word vectors could be used in the model.
+
 Recursive Model - A recursive formulation of the model could be used where the next word in the output sequence could be conditional on the input sequence and the output sequence generated so far.
+
