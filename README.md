@@ -1,5 +1,5 @@
 # Neural-Machine-Translation-
-Implementing neural machine translation from scratch using Python,Keras.
+Implementing neural machine translation from scratch using Python,Keras.Here,we will building a model to translate German phrases to English !
 
 ## Dataset
 
